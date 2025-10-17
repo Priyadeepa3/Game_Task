@@ -1,0 +1,112 @@
+body {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    background-color: #f4e3c1;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: #bbada0;
+    border: 5px solid #776e65;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    background-color: #cdc1b4;
+    color: #776e65;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 🎨 Number colors */
+.x2 {
+    background: #eee4da;
+    color: #776e65;
+}
+
+.x4 {
+    background: #ede0c8;
+    color: #776e65;
+}
+
+.x8 {
+    background: #f2b179;
+    color: white;
+}
+
+.x16 {
+    background: #f59563;
+    color: white;
+}
+
+.x32 {
+    background: #f67c5f;
+    color: white;
+}
+
+.x64 {
+    background: #f65e3b;
+    color: white;
+}
+
+.x128 {
+    background: #edcf72;
+    color: white;
+}
+
+.x256 {
+    background: #edcc61;
+    color: white;
+}
+
+.x512 {
+    background: #edc850;
+    color: white;
+}
+
+.x1024 {
+    background: #edc53f;
+    color: white;
+}
+
+.x2048 {
+    background: #edc22e;
+    color: white;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #8f7a66;
+    color: white;
+    cursor: pointer;
+}
+
+#newGame {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #776e65;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
