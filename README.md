@@ -4,7 +4,7 @@ The goal is to combine tiles with the same number to reach 2048!
 
 Game Overview
 The board is a 4x4 grid.
-Use your arrow keys (⬆️ ⬇️ ⬅️ ➡️) to move the tiles.
+Use your Computer keypad arrow keys (⬆️ ⬇️ ⬅️ ➡️) to move the tiles.
 When two tiles with the same number touch, they merge into one.
 Each move adds a new tile (2 or 4) at a random position.
 The game ends when there are no valid moves left.
